@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add aedes websocket wedsocket-stream express
+
+PATH: 
+  D:\CMDER\vendor\conemu-maximus5\ConEmu\Scripts;D:\CMDER\vendor\conemu-maximus5;D:\CMDER\vendor\conemu-maximus5\ConEmu;C:\Windows\System32;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;D:\MpLab\mpasm;D:\MpLab\bin;C:\Program Files (x86)\Microchip\mplabc18\v3.47\mpasm;C:\Program Files (x86)\Microchip\mplabc18\v3.47\bin;C:\Users\ASUS\AppData\Local\Programs\Python\Python38-32\Scripts\;C:\Users\ASUS\AppData\Local\Programs\Python\Python38-32\;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;D:\PyCharm\PyCharm Community Edition 2020.1\bin;C:\Users\ASUS\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ASUS\AppData\Roaming\npm;D:\CMDER;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;D:\CMDER\vendor\bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/wedsocket-stream: Not found
+      at Request.params.callback [as _callback] (C:\Users\ASUS\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (C:\Users\ASUS\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\ASUS\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\ASUS\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "MQTTBroker",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,15 @@
+{
+    "name": "mqttbroker",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "nodemon Broker.js"
+    },
+    "dependencies": {
+        "aedes": "^0.46.1",
+        "express": "^4.17.1",
+        "websocket": "^1.0.34",
+        "websocket-stream": "^5.5.2"
+    }
+}
